@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Kivy
+.kivy/
+
+# Cache & Logs
+Stock_Cache/
+Backtest_History/
+Hunter_Logs/
+hunter_*.log
+hunter_*.csv
+hunter_*.txt
+hunter_*.json
+hunter_crash_dump.txt
+hunter_summary.txt
+
+# Config with real keys
+hunter_config.json
+
+# OpenSpec internal
+.opencode/
+.sisyphus/
+openspec/
+
+# OS
+.DS_Store
+Thumbs.db
